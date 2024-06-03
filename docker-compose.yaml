@@ -1,7 +1,7 @@
 version: '3.0'
 services:
   postgres:
-    image: postgres:10.6
+    image: postgres:10.6@sha256:1bd46192a12a1012d52f41186c83dc343b4b2d07ad9836fb37a08cdf22041537
     ports:
       - '5432:5432'
     environment:
